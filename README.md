@@ -41,7 +41,7 @@ react-native link
 ```javascript
 import React, { useState, useEffect, useCallback } from "react"
 import { AppRegistry, Text, View, Image, Button } from "react-native"
-import ShareMenu, { ShareMenuReactView } from "react-native-share-menu"
+import ShareMenu, { ShareMenuReactView } from "react-native-share-menu-remake"
 
 type SharedItem = {
 	mimeType: string,
